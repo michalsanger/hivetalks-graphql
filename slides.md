@@ -4,20 +4,21 @@
 
 ---
 
-# Why GraphQL?
+# Why?
 
 - Wild Wild REST
-- Easy onboarding
+- Easy on-boarding
 - Handy tools
 - Bright future
 
 ---
 
-# How GraphQL
+# How
 
 - Proxy REST API
 - Serverless
 - Wish driven development
+- Greenfield? https://www.graph.cool
 
 ---
 
@@ -26,5 +27,20 @@
 - GraphiQL
 - GraphQL Voyager
 - Apollo Optics
+
+---
+
+# Code
+
 - Dataloader
 - Relay pagination
+- Flow type
+- Tests, mocked API responses
+
+---
+
+# Future
+
+- Use on Kiwi.com and Mobile app
+- Subscriptions via AWS
+- Rate limiting
