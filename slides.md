@@ -6,36 +6,61 @@
 
 # Why?
 
-- Wild Wild REST
 - Easy on-boarding
 - Handy tools
 - Bright future
 
 ---
 
+# Wild Wild REST
+
+---
+
+# Wild Wild REST
+
+- docs.skypickerpublicapi.apiary.io
+- docs.skypickerbookingapi1.apiary.io
+- docs.locations10.apiary.io
+
+---
+
+# Wild Wild REST
+
+- WTF factor > 0
+- Docs get old
+- Versioning
+- Over fetching
+
+---
 # How
 
 - Proxy REST API
 - Serverless
-- Wish driven development
 - Greenfield? https://www.graph.cool
+
+---
+
+# Wish driven development
 
 ---
 
 # Tools
 
-- GraphiQL
-- GraphQL Voyager
 - Apollo Optics
+- GraphQL Voyager
+- GraphiQL
 
 ---
 
 # Code
 
-- Dataloader
-- Relay pagination
 - Flow type
+- Relay pagination
 - Tests, mocked API responses
+
+---
+
+# Dataloader
 
 ---
 
@@ -44,3 +69,8 @@
 - Use on Kiwi.com and Mobile app
 - Subscriptions via AWS
 - Rate limiting
+
+---
+
+# Thanks
+`michal.sanger@kiwi.com`
