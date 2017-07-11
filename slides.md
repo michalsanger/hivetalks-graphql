@@ -36,7 +36,7 @@
 
 - Proxy REST API
 - Serverless
-- Greenfield? https://www.graph.cool
+- Greenfield - [www.graph.cool](https://www.graph.cool)
 
 ---
 
@@ -49,6 +49,26 @@
 - Apollo Optics
 - GraphQL Voyager
 - GraphiQL
+
+---
+
+![fit](images/voyager01.png)
+
+---
+
+![fit](images/voyager02.png)
+
+---
+
+![fit](images/voyager03.png)
+
+---
+
+![fit](images/graphiql01.png)
+
+---
+
+![fit](images/graphiql02.png)
 
 ---
 
