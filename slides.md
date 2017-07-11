@@ -47,11 +47,14 @@
 
 ---
 
-- Greenfield - [www.graph.cool](https://www.graph.cool)
+# Wish driven development
 
 ---
 
-# Wish driven development
+# How
+
+New project? - [www.graph.cool](https://www.graph.cool)
+
 
 ---
 
@@ -105,3 +108,7 @@
 
 # Thanks
 `michal.sanger@kiwi.com`
+
+---
+# [howtographql.com](https://www.howtographql.com)
+![inline](images/howtographql.png)
