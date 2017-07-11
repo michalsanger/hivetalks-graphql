@@ -254,7 +254,9 @@ Static analyze the query, refuse to execute if too much data is requested
 ---
 
 # Thanks
-`michal.sanger@kiwi.com`
+## [kiwi-graphiql.now.sh](https://kiwi-graphiql.now.sh/)
+
+### `michal.sanger@kiwi.com`
 
 ^
 Give GraphQL a try. Idealy with me in Kiwi.com :-)
