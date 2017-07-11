@@ -96,6 +96,66 @@ New project? - [www.graph.cool](https://www.graph.cool)
 
 # Dataloader
 
+- Data fetching lib
+- Batching
+- Caching
+
+---
+
+# Dataloader
+
+```javascript
+{
+  allBookings(last: 1) {
+    edges {
+      node {
+        id
+        allowedBaggage {
+          additionalBaggage {
+            price {
+              amount
+              currency
+            }
+            quantity
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+---
+
+# Dataloader
+
+```javascript, [.highlight: 6-13]
+{
+  allBookings(last: 1) {
+    edges {
+      node {
+        id
+        allowedBaggage {
+          additionalBaggage {
+            price {
+              amount
+              currency
+            }
+            quantity
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+---
+
+# Dataloader
+
+[github.com/facebook/dataloader](https://github.com/facebook/dataloader)
+
 ---
 
 # Future
