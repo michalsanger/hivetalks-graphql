@@ -36,6 +36,17 @@
 
 - Proxy REST API
 - Serverless
+
+---
+
+![fit](images/kiwi-api01.png)
+
+---
+
+![fit](images/kiwi-api02.png)
+
+---
+
 - Greenfield - [www.graph.cool](https://www.graph.cool)
 
 ---
