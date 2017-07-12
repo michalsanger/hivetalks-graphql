@@ -1,6 +1,12 @@
-# GraphQL & Kiwi.com
+# GraphQL in Kiwi.com
 ## Tips and tricks
 ### Michal Sänger
+
+^
+Hi my name is...
+
+^
+No theory, just a practical stuff
 
 ---
 
@@ -66,6 +72,9 @@ Optimizations on web (bundling, CDN) must be done again on mobile. If lucky
 
 ![fit](images/kiwi-api02.png)
 
+^
+This is cool, but best we did was Wish Driven Development
+
 ---
 
 # Wish driven development
@@ -98,6 +107,9 @@ GraphQL backend as a service
 
 ---
 
+# GraphQL Voyager
+
+---
 ![fit](images/voyager01.png)
 
 ^
@@ -116,6 +128,10 @@ Generated from code, can't get old
 
 ^
 Documentation. Generated from code, can't get old
+
+---
+
+# GraphiQL
 
 ---
 
