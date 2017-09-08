@@ -3,7 +3,7 @@ GraphQL in Kiwi.com - Tips & Tricks. No theory, just a practical stuff.
 
 ## Slides
 
-[![Slides screenshot](https://github.com/michalsanger/hivetalks-graphql/blob/master/slides-screenshot.png)](https://www.slideshare.net/MichalSnger/actum-devtalk-now)
+[![Slides screenshot](https://github.com/michalsanger/hivetalks-graphql/blob/master/slides-screenshot.png)](https://www.slideshare.net/MichalSnger/graphql-in-kiwicom)
 
 [Hive talks](https://www.meetup.com/apiaryio/)
 
