@@ -24,6 +24,14 @@ Use it because it solves problem. Fetching data for chatbot was a problem
 
 ---
 
+![fit](images/sexy-graphql.jpg)
+
+^
+- So you are attracted by a GraphQL
+- But what about the current setup?
+
+---
+
 # Wild Wild REST
 
 ^
@@ -47,7 +55,7 @@ Plus some private and undocumented
 
 # Wild Wild REST
 
-- WTF factor > 0
+- WTF factor
 - Docs get old
 - Versioning
 - Over fetching
@@ -101,9 +109,44 @@ GraphQL backend as a service
 
 # Tools
 
-- Apollo Optics
-- GraphQL Voyager
 - GraphiQL
+- GraphQL Voyager
+- Apollo Engine
+
+---
+
+# GraphiQL
+
+---
+
+![fit](images/graphiql.png)
+
+^
+- Build from schema, always fresh
+- Something like API console
+
+---
+
+![fit](images/graphiql-docs01.png)
+![fit](images/graphiql-docs02.png)
+
+^
+- Available queries
+- Props of Flight entity
+
+---
+
+![120%](images/graphiql-autocomplete.png)
+
+^
+Autocomplete
+
+---
+
+![](images/graphiql02.png)
+
+^
+OFC run queries, see the data
 
 ---
 
@@ -131,24 +174,47 @@ Documentation. Generated from code, can't get old
 
 ---
 
-# GraphiQL
+# Apollo Engine
 
 ---
 
-![fit](images/graphiql01.png)
+![fit](images/apollo-engine01.png)
 
 ^
-Gateway to all API available. Like SQL console
-
-^
-It's a React component, extensible (Voyager, Login)
+Performance monitoring
+Dashboard overview
 
 ---
 
-![fit](images/graphiql02.png)
+![fit](images/apollo-engine02.png)
 
 ^
-Autocomplete, Docs generated from code, can't get old
+Query stats
+Time stats
+Frequency stats
+
+---
+
+![fit](images/apollo-engine03.png)
+
+^
+Single query detail
+
+---
+
+![fit](images/apollo-engine04.png)
+
+^
+- Query parameters
+- Analyze problem to the detail
+
+---
+
+![fit](images/kiwi-api-apollo.png)
+
+^
+- No change on BE
+- Closed Source, we'll try open source
 
 ---
 
@@ -158,105 +224,18 @@ Autocomplete, Docs generated from code, can't get old
 - Relay pagination
 - Tests, mocked API responses
 
-^
-Static types helps refactoring, code navigation, code analysis
+---
 
-^
-Standard navigation, FE can easyly jump on board
-
-^
-Tests are a must, be sure resolvers works
+# [fit] _`github.com/kiwicom/graphql`_
 
 ---
 
-# Dataloader
+# GraphQL in Kiwi.com
 
-- Data fetching lib
-- Batching
-- Caching
-
-^
-Don't be sad because of bad REST API
-
----
-
-# Dataloader
-
-```javascript
-{
-  allBookings(last: 2) {
-    edges {
-      node {
-        id
-        allowedBaggage {
-          additionalBaggage {
-            price {
-              amount
-              currency
-            }
-            quantity
-          }
-        }
-      }
-    }
-  }
-}
-```
-
-^
-I'd like to know how much does it cost to add baggage to my 2 latest bookings
-
-^
-note: Relay pagination usage
-
----
-
-# Dataloader
-
-```javascript, [.highlight: 6-13]
-{
-  allBookings(last: 2) {
-    edges {
-      node {
-        id
-        allowedBaggage {
-          additionalBaggage {
-            price {
-              amount
-              currency
-            }
-            quantity
-          }
-        }
-      }
-    }
-  }
-}
-```
-
-^
-REST API requires - fetch list of bookings, filter latest 2, twice fetch detail.
-
-^
-Thanks to GQL allowedBaggage resolver is called only for latest 2 bookings,
-Thanks to Dataloader detail fetch can be batched. Or fetched from Redis if it makes sense.
-
-^
-This optimisation does not have to be done on web and mobile and every other platform.
-
----
-
-# Dataloader
-
-[github.com/facebook/dataloader](https://github.com/facebook/dataloader)
-
----
-
-# Future
-
-- Use on Kiwi.com and Mobile app
-- Subscriptions via AWS
-- Rate limiting
+- Locations on Kiwi.com
+- Hotels in Mobile app
+- Customer Support
+- FAQ soon
 
 ^
 Technology is easy, people are hard :-)
