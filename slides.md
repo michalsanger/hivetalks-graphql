@@ -13,6 +13,7 @@ No theory, just a practical stuff
 # Why?
 
 - Easy on-boarding
+- Developer experience
 - Handy tools
 - Bright future
 
@@ -98,20 +99,7 @@ Easy experiments in product. Optimize once. Measure!
 
 ---
 
-# How
-
-New project? - [www.graph.cool](https://www.graph.cool)
-
-^
-GraphQL backend as a service
-
----
-
 # Tools
-
-- GraphiQL
-- GraphQL Voyager
-- Apollo Engine
 
 ---
 
